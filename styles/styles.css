@@ -1,10 +1,14 @@
+: :root {
+    --height: auto;
+}
+
 main {
     max-width: 840px;
 }
 
 main img{ 
     width: 150px;
-    height: auto;
+    height: var(--height);
 }
 
 nav {
@@ -24,7 +28,7 @@ h1 {
 
 img {
     width: 150px;
-    height: auto;
+    height: var(--height);
     border: 0.5px solid (0 0 0 / 1%);
     padding: 2px;
     box-shadow: 0 0 20cap gray;
@@ -46,7 +50,7 @@ aside{
 
 aside img{
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 footer{ 
