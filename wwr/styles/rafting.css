@@ -1,0 +1,85 @@
+:root {
+    --primary-color: rgb(240, 244, 105);
+    --secondary-color: rgb(255, 197, 88);
+    --accent1-color: rgba(0, 57, 115, 0.85);
+    --accent2-color: rgba(0, 0, 0, 0.588);
+    --heading-font: "Robotica", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent2-color);
+}
+
+header, main, footer {
+    width: 840px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+nav, p, section, article { 
+    margin: 16px auto;
+    padding: 2px;
+}
+
+.hero { 
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: white;
+}
+
+article {
+    position: absolute;
+    top: 70%;
+    margin: 0 10px;
+    padding: .8rem;
+    background-color: var(--accent1-color);
+    color: white;
+    
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+}
+
+.hero article p {
+    text-align: left;
+}
+
+h2 {
+    padding: 10px;
+    background-color: var(--accent1-color);
+    color: white;
+    text-align: center;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
