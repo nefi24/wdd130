@@ -1,9 +1,9 @@
 :root {
     --primary-color: rgb(240, 244, 105);
-    --secondary-color: rgb(255, 197, 88);
+    --secondary-color: rgb(115, 176, 251);
     --accent1-color: rgba(0, 57, 115, 0.85);
     --accent2-color: rgba(0, 0, 0, 0.588);
-    --heading-font: "Robotica", "Georgia", serif;
+    --heading-font: "Arial", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -37,20 +37,24 @@ nav, p, section, article {
     position: relative;
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 30px;
     width: 100%;
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent1-color);
+    background-color: var(--secondary-color);
     color: white;
 }
 
