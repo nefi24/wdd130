@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgb(240, 244, 105);
-    --secondary-color: rgb(115, 176, 251);
+    --secondary-color: rgba(35, 197, 3, 0.613);
     --accent1-color: rgba(0, 57, 115, 0.85);
     --accent2-color: rgba(0, 0, 0, 0.588);
     --heading-font: "Arial", "Georgia", serif;
