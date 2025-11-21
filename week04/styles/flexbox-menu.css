@@ -12,10 +12,11 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 0 2px;
     justify-content: space-around;
     align-items: center;
 }
+
 
 nav a {
     display: block;
