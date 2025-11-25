@@ -64,51 +64,39 @@ nav, p, section, article {
     padding: 2px;
 }
 
-.hero { 
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+.hero {
     position: relative;
 }
 
 .hero img {
-    grid-column: 1 / 2;
-    grid-row: 1 / 4;
     width: 100%;
     height: auto;
+    display: block;
 }
 
 .hero h1 {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    align-self: start;
-    justify-self: center;
-    margin-top: 3rem;
-    padding: 16px;
-    text-align: center;
-    color: var(--primary-color);
-    z-index: 1;     
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    padding: 10px 20px;
 }
 
 .hero article {
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-    align-self: center;
-    margin: 0;   
-    padding: 1rem;
-    max-width: 100%;
-    height: auto;
-    background-color: var(--accent1-color);
+    position: absolute; 
+    bottom: 30%;
+    width: 100%;
+    background-color: rgba(0, 57, 115, 0.85);
+    padding: 15px;
     color: white;
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 1rem;
 }
 
 .hero article img {
-    width: 200px;
+    float: right; 
+    width: 180px;
     height: auto;
-    grid-column: 2 / 3;
+    margin-left: 10px;
 }
 
 .hero article p {
