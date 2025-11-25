@@ -25,6 +25,7 @@ header {
     border-bottom: 1px solid #ccc;
     padding: 0.8rem;
     background-color: var(--secondary-color);
+    color: var(--primary-color);
     font-size: large;
 }
 
