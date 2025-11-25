@@ -87,7 +87,7 @@ nav, p, section, article {
     position: absolute; 
     bottom: 30%;
     width: 100%;
-    background-color: rgba(0, 57, 115, 0.85);
+    background-color: var(--accent1-color);
     padding: 15px;
     color: white;
 }
