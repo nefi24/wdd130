@@ -272,7 +272,7 @@ input[type="email"] {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    column-gap: auto;
+    column-gap: 5px;
     margin: 10px auto;
 }
 
