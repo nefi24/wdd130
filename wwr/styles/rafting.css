@@ -276,7 +276,7 @@ input[type="email"] {
     margin: 10px auto;
 }
 
-legend {
+.purpose-label {
     grid-column: 1 / 2;
     justify-self: center;
     text-align: center;
