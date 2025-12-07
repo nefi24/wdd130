@@ -312,6 +312,7 @@ legend {
 
 fieldset {
     border: none;
+    padding: 0.2rem;
 }
 
 button {
