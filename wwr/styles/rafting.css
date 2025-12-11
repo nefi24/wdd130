@@ -397,7 +397,7 @@ button {
 .choose-us h2{
     background-color: var(--primary-color);
     color: var(--accent1-color);
-    font-weight: 100%;
+    font-weight: bold;
 }
 
 .choose-us-images {
@@ -415,7 +415,7 @@ button {
 .guest-section h2{
     background-color: var(--primary-color);
     color: var(--accent1-color);
-    font-weight: 100%;
+    font-weight: bold;
 }
 
 .guest-section-images {
