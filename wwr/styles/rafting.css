@@ -341,3 +341,152 @@ button {
     width: 200px;
     border-radius: 4%;
 }
+
+.hero-index{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.hero-index img{
+    width: 100%;
+    grid-area: 1 / 1 / 7 / 2;
+    height: 525px;
+}
+
+.hero-index h1{
+    grid-area: 3 / 1 / 4 / 2;
+    color: var(--primary-color);
+    z-index: 1;
+    font-size: 4rem;   
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero-btn {
+    text-decoration: none;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 15px 15px;
+    border-radius: .5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.hero-index a.hero-btn {
+    grid-area: 4 / 1 / 5 / 2;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.choose-us{
+    margin: 1rem auto;
+    padding: 0.8em;
+
+}
+
+.choose-us h2{
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    font-weight: 100%;
+}
+
+.choose-us-images{
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.choose-us-images img{
+    width: 200px;
+}
+
+.guest-section h2{
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    font-weight: 100%;
+}
+
+.guest-section-images {
+    display: flex;
+    justify-content: space-around;                    
+    margin: 20px auto;
+    text-align: center;        
+}
+
+.guest-section-images figure {
+    max-width: 220px;          
+}
+
+.guest-section-images img {
+    width: 220px;              
+    border-radius: 6px;
+}
+
+figcaption{
+    color: black;
+}
+
+.our-story-content {
+    display: flex;
+    margin: 10px auto;
+}
+
+.our-story-content p{
+    align-self: center;
+    color: black;
+}
+
+.our-story-content img {
+    width: 300px;
+    height: auto;
+}
+
+.contact-us {
+    margin-top: 2rem;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 1.5rem 2rem 2.5rem;
+}
+
+.contact-us h2 {
+    background: none;
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-us-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contact-us-content img {
+    width: 260px;
+    border-radius: 6px;
+}
+
+.contact-us-text p {
+    margin-bottom: 1rem;
+    max-width: 320px;
+}
+
+.contact-btn {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: white;
+    padding: 0.75rem 1.75rem;
+    border-radius: 999px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+.contact-btn:hover {
+    filter: brightness(1.1);
+}
